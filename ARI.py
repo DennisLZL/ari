@@ -34,7 +34,7 @@ def ARI(trueLab, predLab):
 
 if __name__ == '__main__':
     trueLab = [0, 0, 0, 1, 1, 1]
-    predLab = [0, 0, 1, 1, 2, 2]
+    predLab = [0, 0, 1, 1, 1, 1]
 
     print ARI(trueLab, predLab)
 
